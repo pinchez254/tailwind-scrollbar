@@ -76,13 +76,13 @@ All of the asterisks can be replaced [with any tailwind colour](https://tailwind
 | `scrollbar-track-*` | Sets the colour of the scrollbar track | |
 | `scrollbar-corner-*` | Sets the colour of the scrollbar corner | The corner will only appear if you have both vertical and horizontal scrollbars. |
 
-### Noncompatible utilities
-These styles are only available in `noncompatible` mode. They won't have any effect in Firefox.
+### `nocompatible` utilities
+These styles are only available in [`nocompatible`](#configuration) mode. They won't have any effect in Firefox.
 
 | Utility     | Effect | Notes |
 |-------------|--------|-------|
-|  scrollbar-w-*  | Sets the width of vertical scrollbars | The asterisk can be replaced with any Tailwind [width setting](https://tailwindcss.com/docs/width), including arbitrary values. |
-|  scrollbar-h-*  | Sets the height of horizontal scrollbars | The asterisk can be replaced with any Tailwind [height setting](https://tailwindcss.com/docs/height), including arbitrary values. |
+|  `scrollbar-w-*`  | Sets the width of vertical scrollbars | The asterisk can be replaced with any Tailwind [width setting](https://tailwindcss.com/docs/width), including arbitrary values. |
+|  `scrollbar-h-*`  | Sets the height of horizontal scrollbars | The asterisk can be replaced with any Tailwind [height setting](https://tailwindcss.com/docs/height), including arbitrary values. |
 | `scrollbar-rounded-*` | Rounds a scrollbar thumb's corners | The asterisk can be replaced with any Tailwind [rounded setting](https://tailwindcss.com/docs/border-radius#using-custom-values), including arbitrary values. |
 
 ## License
